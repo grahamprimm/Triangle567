@@ -1,7 +1,7 @@
 
 # SSW567 - HW 02a
 
-[![build status of master](https://travis-ci.org/grahamprimm/Triangle567.svg?branch=master)](https://travis-ci.org/grahamprimm/Triangle567)
+[![build status of master](https://travis-ci.org/grahamprimm/Triangle567.svg?branch=main)](https://travis-ci.org/grahamprimm/Triangle567)
 
 ### 1. Assignment Description
 
