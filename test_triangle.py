@@ -1,12 +1,12 @@
 import unittest
-from Triangle import classifyTriangle
+from triangle import classify_triangle
 
-class TestTriangles(unittest.TestCase):
+class test_triangle(unittest.TestCase):
 
     # Test Right Triangles
     def testRightTriangleA(self):
         self.assertEqual(classifyTriangle(3, 4, 5), 'Right', '3, 4, 5 is a Right triangle')
-    
+
     def testRightTriangleB(self):
         self.assertEqual(classifyTriangle(5, 12, 13), 'Right', '5, 12, 13 is a Right triangle')
 
@@ -17,7 +17,7 @@ class TestTriangles(unittest.TestCase):
     # Test Isosceles Triangles
     def testIsoscelesTriangleA(self):
         self.assertEqual(classifyTriangle(5, 5, 8), 'Isoceles', '5, 5, 8 should be Isosceles')
-    
+
     def testIsoscelesTriangleB(self):
         self.assertEqual(classifyTriangle(8, 8, 5), 'Isoceles', '8, 8, 5 should be Isosceles')
 
@@ -28,7 +28,7 @@ class TestTriangles(unittest.TestCase):
     # Test Not A Triangle
     def testNotATriangleA(self):
         self.assertEqual(classifyTriangle(1, 2, 3), 'NotATriangle', '1, 2, 3 is not a triangle')
-    
+
     def testNotATriangleB(self):
         self.assertEqual(classifyTriangle(5, 9, 3), 'NotATriangle', '5, 9, 3 is not a triangle')
 
@@ -44,4 +44,3 @@ class TestTriangles(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
